@@ -2,7 +2,6 @@ import java.util.Map;
 
 public class Collect {
     public static void collect(String[] args) {
-        import java.util.*;
 
         List<String> names = new ArrayList<>();
         names.add("Anna");
