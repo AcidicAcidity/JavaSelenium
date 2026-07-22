@@ -1,7 +1,7 @@
-import java.util.Map;
+import java.util.*;
 
-public class Collect {
-    public static void collect(String[] args) {
+public class collect {
+    public static void Collect(String[] args) {
 
         List<String> names = new ArrayList<>();
         names.add("Anna");
@@ -13,5 +13,7 @@ public class Collect {
 
         Set<String> uniqueNames = new HashSet<>();
         uniqueNames.add("Anna");
+
+        System.out.println(annaAge);
     }
 }
