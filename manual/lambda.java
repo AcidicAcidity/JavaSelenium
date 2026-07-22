@@ -6,6 +6,6 @@ public class lambda {
 
         Comparator<String> byLenght = (a, b) -> a.length() - b.length();
 
-        // wait.until(driver -> driver.findElement(By.id("submit")).isDisplayed());
+        wait.until(driver -> driver.findElement(By.id("submit")).isDisplayed());
     }
 }
